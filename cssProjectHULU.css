@@ -1,0 +1,237 @@
+@import url('../fe11004t-webfont.woff2');
+
+body{
+    background-color:rgb(245, 244, 244);
+    margin: 0px 0px 0px 0px;
+    height: 1700px;
+    font-family: 'Futura',sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    letter-spacing: 1px;
+}
+
+.content{
+    position: relative;
+    bottom: 100px;
+    width: 1920px;
+    height: 550px;
+    text-align: center;
+    
+}
+.content nav #log{
+    position: fixed;
+    z-index: 100;
+    display: inline-block;
+    right: 60px;
+    top: 10px;
+    font-weight: bold;
+}
+.content nav #log:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+#background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.content button{
+    position: relative;
+    top: 190px;
+    background-color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content button:hover{
+    opacity: 80%;
+}
+
+#head{
+    display: inline-block;
+    position: relative;
+    z-index: 100;
+    font-size: 13px;
+    top: 190px;
+    color: rgb(4, 44, 29);
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+#subtle{
+    position: relative;
+    font-size: 10px;
+    color: white;
+    top: 190px;
+    opacity: 50%;
+    
+}
+#bot{
+    z-index: 100;
+    position: relative;
+    top:185px ;
+    color: white;
+    
+}
+.content h2{
+    top: 200px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    
+}
+
+#img{
+    position: relative;
+    max-width: 100%;
+    height: 15%;
+    display: block;
+    top: 200px;
+    left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 5;
+    
+}
+
+.bar {
+    
+    position: relative;
+    vertical-align: top;
+    bottom: 28px;
+    width: 1920px;
+    background: linear-gradient(to right, rgb(14, 39, 49) 30%, rgb(5, 71, 99) 70%);
+    
+}
+.inBar{
+    height: 150px;
+    position: relative;
+    text-align: inherit;
+    vertical-align: top;
+    bottom: 5px;
+    max-width: 100%;
+    left: 200px;
+    
+}
+.words{
+    position: relative;
+    display: block;
+    left: 500px;
+    bottom: 80px;
+    
+}
+#bundl{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(42, 190, 136);
+}
+#getHulu{
+    color: white;
+    font-weight: 10;
+
+}
+.bar a:link{
+    color: grey;
+    
+}
+.bar a:hover{
+    color: rgb(167, 167, 167);
+    
+}
+.bar a:visited{
+    color: grey;
+    
+}
+
+
+#threepics{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    max-width: 100%;
+    height: 60%;
+    
+}
+#details{
+    font-size: 15px;
+    left: 500px;
+    top: -100px;
+}
+.bar button{
+    display: inline-block;
+    position: relative;
+    left: 1200px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    bottom: 145px;
+    background-color: transparent;
+    position: relative;
+    border: 2px solid white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    
+
+}
+.bar a{
+    font-size: 10px;
+    display: inline;
+    position: relative;
+    left: 1085px;
+    bottom: 100px;
+
+}
+
+.blackbg{
+    position: relative;
+    background-color: black;
+    text-align: center;
+    height: 925px;
+    bottom: 45px;
+    
+}
+
+.blackwrds{
+    display: inline;
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 70px;
+}
+
+.blackwrds h1{
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+#green{
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(42, 190, 136);
+    top: 50px;
+    letter-spacing: 1.5px;
+}
+.blackwrds h2{
+    position: relative;
+    bottom: 40px;
+    font-weight: normal;
+}
+
+.shows{
+    position: relative;
+    padding: 5px;
+    margin-top: 40px;
+}
